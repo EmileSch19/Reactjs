@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body * {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+
+body {
+    margin: 0;
+    background: rgb(46,50,63);
+    background: linear-gradient(225deg, rgba(46,50,63,1) 0%, rgba(34,38,47,1) 100%);
+    color: white;
+}
+
+/* Global css */
+.dark {
+    border-radius: 24px;
+    background-color: #2e323f;
+    padding: 24px;
+    height: calc(100% - 48px);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 5px -1px, rgba(0, 0, 0, 0.14) 0px 6px 10px 0px, rgba(0, 0, 0, 0.12) 0px 1px 18px 0px;
+}
